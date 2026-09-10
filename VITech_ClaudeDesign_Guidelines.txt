@@ -1,0 +1,555 @@
+================================================================
+VITECH PRESENTATION DESIGN SYSTEM
+FULL GUIDELINES FOR CLAUDE DESIGN
+================================================================
+
+HOW TO USE THIS DOCUMENT
+----------------------------------------------------------------
+This is a binding specification, not visual inspiration. Every
+rule below is drawn directly from two real source documents:
+VITech's actual visual style guide, and an actual VITech
+presentation. Nothing in this document is hypothetical.
+
+The goal for every future deck: it should be visually and
+structurally indistinguishable from the presentation reference --
+same slide templates, same recurring UI patterns, same color
+discipline, same overall composition and restraint.
+
+There are two different kinds of rules in this document:
+
+STYLE TOKENS (colors, fonts, border specs, layout templates,
+icons, logo) are a closed set, taken directly from the two source
+documents. Never substitute, approximate, or invent a new one.
+
+CONTENT AND COMPOSITION JUDGMENT (which observed template fits
+new content, how to split dense content, which photography style
+fits a given slide) requires judgment. Make these decisions
+confidently, using the reference deck's actual choices as the
+guide.
+
+If, at any point, a rule is genuinely ambiguous, something needed
+is missing, or you are unsure which choice is correct: ASK. Do
+not guess and proceed silently.
+
+SOURCE FILES
+----------------------------------------------------------------
+This design system is built from exactly two uploaded sources:
+
+1. THE PRESENTATION REFERENCE PDF -- an actual, real VITech
+   presentation. Every slide template, card pattern, diagram
+   style, and composition rule in Sections 7-9 of this document
+   is derived directly from this deck. It is the primary source
+   of truth for how a slide should look and be structured. Every
+   future presentation should match its visual style precisely.
+
+2. THE VISUAL STYLE GUIDE PDF -- VITech's official brand
+   guidelines. It is the source for the naming rule, logo rules,
+   exact brand colors, typography specification, hand-drawn
+   accent rules, icon rules, and image guidance in Sections 1-6
+   of this document.
+
+These two documents are fully consistent with each other and
+should be used together. If anything ever appears to conflict
+between them, or between either document and this text, flag it
+rather than guessing which is correct.
+
+================================================================
+1. NAMING AND SPELLING
+================================================================
+The company name is written only as "VITech" -- capital V,
+capital I, lowercase t-e-c-h. Incorrect variants that must never
+appear: "V.I.Tech", "VITECH" (outside the logo lockup itself),
+"Vitech", "vitech". This applies everywhere: slides, public pages,
+social media, emails, letters. Pronounced "vee-eye-tek."
+
+================================================================
+2. LOGO
+================================================================
+The logo has two parts: the logomark (the angular V shape) and
+the logotext ("VITECH," set in a modified Microsquire Bold font).
+The logomark alone may be used only when space is very small,
+such as a social media profile picture -- otherwise always use
+both parts together.
+
+SAFE SPACE
+Keep clear space around the logo equal to the height of a capital
+"H" in the logotype, measured from the base of the logo outward on
+all sides.
+
+NEVER DO ANY OF THE FOLLOWING WITH THE LOGO:
+- Use an old/previous version of the logo
+- Change its proportions
+- Apply any special effect (shadows, glows, gradients, filters)
+- Change its shape
+- Set "VITech" in any typeface other than the approved one
+
+BACKGROUNDS
+The preferred placement is on a white or light background. An
+inverted version of the logo is allowed on a clean background
+matching the logo's own color, or on a black/dark background. If
+color printing isn't available, a monochrome version may be used.
+Never place the logo on a complex, busy background, or on a
+background with low contrast against the logo.
+
+LOGO PLACEMENT -- STRICT
+The logo appears centered at the top of the title/opening slide
+only. Do not add the logo to other slide types (standard content,
+card grid, diagram, collage, FAQ, closing) unless a new reference
+example specifically shows it there -- do not add it by default
+"for branding," since the reference deck does not do this.
+
+================================================================
+3. TEXT COLOR -- STRICT RULE (CRITICAL)
+================================================================
+HEADLINES AND BODY TEXT ARE NEVER COLORED. This is stated
+explicitly in the brand guidelines and confirmed throughout the
+reference presentation: avoid colored text in body copy, along
+with underlines, italics, caps lock, and frequent bolding. Every
+headline and every paragraph of body text uses the neutral text
+colors defined in Section 4 (#333333 for headers, #4D4D4D for
+body) -- with no exceptions.
+
+COLOR IS RESERVED EXCLUSIVELY FOR:
+- Icons (thin line icons, with occasional orange accent details)
+- Hand-drawn accent marks and connector lines (orange, #FCA311)
+- Buttons: a solid brand-blue fill with white text on top -- this
+  is white text on a colored surface, not "colored text," and is
+  the one permitted exception
+- Hyperlinks and clickable text (e.g. "Learn more," "Explore open
+  positions," "Read reviews on DOU"): set in brand blue -- the
+  only case where inline text itself carries color, reserved
+  strictly for actual clickable links, never for emphasis
+- Borders, dividers, card outlines, decorative lines
+- Background tints on tags, pills, and card surfaces
+
+DO NOT color a headline for emphasis. Do not color a statistic or
+large number for visual impact -- large numbers in the reference
+deck ("$2.8M+," "96%," "5.3 years") are set in the same neutral
+dark text as everything else; their visual weight comes from size
+and boldness, not color. Do not color a keyword inside a paragraph
+to draw attention to it -- use bold weight instead, per Section 4,
+and only when it genuinely adds clarity.
+
+If Claude Design's default instinct is to apply an accent color to
+a headline, a stat, or a pulled-out phrase: override that
+instinct. This is the single most important rule in this
+document.
+
+================================================================
+4. COLORS
+================================================================
+These seven colors are the complete, official brand palette:
+
+  #037EE6  Brand color
+           Role: Brand colour, logo, primary buttons
+           Used for: logo, calls to action, interactive elements
+
+  #333333  Header text
+           Used for: all heading levels, H1 through H5
+
+  #FFFFFF  Background
+           Used for: default page background
+
+  #FCA311  Warm accents
+           Used for: hand-drawn elements, highlights, subtle icon
+           details. Use sparingly -- see Section 5.
+
+  #056BDA  Interactive states
+           Used for: button states, link interactions
+
+  #4D4D4D  Body text
+           Used for: paragraphs, labels, long-form reading.
+           Creates visual hierarchy when paired with #333333
+           headings.
+
+  #F8F8F8  Alternative background surfaces
+           Used for: alternative backgrounds, cards, hover
+           overlays, tag/pill backgrounds
+
+STROKE / BORDER COLOR
+A light gray stroke color (#D3D3D3) is used for outlines, card
+borders, panel borders, and dividers throughout the reference
+presentation -- see Section 7 for the full border and card
+system.
+
+NO EXCEPTIONS. If a need arises for a color not on this list,
+flag it rather than introducing one.
+
+================================================================
+5. TYPOGRAPHY
+================================================================
+Headlines use Roboto Bold. Its clean geometry and strong presence
+structure information without overwhelming the reader, and
+communicate expertise and trustworthiness through calm authority
+rather than shouting.
+
+Paragraphs and body text use Roboto Regular. Its neutral tone
+keeps the message, not the medium, connecting with the reader --
+precise, never cluttered.
+
+TYPE SCALE
+Base body text size: 16px. Every level above scales by a ratio of
+1.25 (a "major third" modular scale), calculated as 16 x 1.25^n:
+
+  Body paragraph   16px   Regular
+  H5               20px   Bold
+  H4               25px   Bold
+  H3               31px   Bold
+  H2               39px   Bold
+  H1               49px   Bold
+
+SUBHEADERS
+Short supportive lines directly under a header, used only under
+H1 and H2 -- never under H3, H4, or H5. A subheader's size is the
+header's size multiplied by 0.42 (e.g. a 49px H1 pairs with a
+~41-scaled subheader per this ratio; a 78px-scale H2 pairs with a
+~33-scaled subheader). Subheaders are optional, written in
+sentence case, set in Regular weight, and must have clear contrast
+from the header above them in both size and color.
+
+PARAGRAPH FORMATTING
+Use 140% line height, with an ideal line length of approximately
+70 characters. This improves legibility and creates a comfortable
+reading rhythm.
+
+Avoid visual clutter within body copy: no underlines, no italics,
+no caps lock, no colored text (see Section 3), and no frequent
+bolding. The message should stay calm, focused, and free of visual
+noise. Bold may be used sparingly to highlight essential terms or
+concepts -- only when it adds clarity or draws attention to a
+genuinely critical point.
+
+PULL QUOTES
+A short, impactful statement placed inside content to highlight a
+key idea. Scaled to 1.75 times the base size (28px). Used to
+reinforce a memorable phrase, set apart visually from surrounding
+paragraph text.
+
+HEADLINE EMPHASIS DEVICE
+The reference deck's title slide flanks an emphasized phrase with
+orange hand-drawn bracket/arrow marks ("<writing code>") rather
+than coloring the phrase -- this is the approved way to emphasize
+a headline word: a decorative accent mark around it, never a
+color change to the text itself.
+
+================================================================
+6. HAND-DRAWN ACCENTS AND ICONS
+================================================================
+HAND-DRAWN ACCENTS
+To support a "warm expert" tone and add a sense of humanity, hand-
+drawn marks -- drawn with a bold pencil or chalk-like texture, in
+the warm accent color #FCA311 -- are integrated into layouts.
+Typical uses: underlining or circling key headers, drawing
+attention to important UI elements, and visual markers such as
+arrows, checkmarks, and list marks. In the reference deck this
+also includes curved connector lines linking related diagram
+elements, hand-written script labels, decorative swirl/circle line
+ornaments, and bracket/arrow marks flanking an emphasized headline
+word.
+
+These accents are not decorative filler -- each one should be
+intentional, guiding the viewer with clarity and warmth. Limit
+orange to 15% or less of any single layout, and avoid using it on
+every slide -- it should never dominate the composition.
+
+ICONS
+A custom icon set -- thin-lined, consistent stroke weight,
+visually aligned with the hand-drawn orange accents -- is used
+throughout. Always use approved icons, in the defined colors and
+style only. Use them to support structure: mark sections, points,
+or content blocks. Never use icons as standalone illustrations or
+decorative fillers -- icons should enhance meaning, not act as
+filler.
+
+One diagram in the reference deck (the "core capabilities" folder
+diagram) uses solid blue-filled folder icons as a specific
+illustrative device for that diagram type -- this is an exception
+for that specific pattern, not the general icon rule. Default to
+the thin-line style everywhere else.
+
+Do not invent new icons outside this style. If a needed icon
+doesn't exist yet, flag it rather than substituting a differently
+-styled one.
+
+================================================================
+7. BORDER AND CARD SYSTEM
+================================================================
+NOT EVERY SLIDE HAS A FULL-SLIDE BORDER. Border usage depends on
+slide type, matching the reference deck's actual pattern:
+
+- Content slides with a header, subtitle, and supporting layout
+  (diagrams, card grids, panels) DO have a single thin border
+  framing the full slide content area, inset from the slide edge.
+- Title/opening slides, the closing/contact slide, the culture
+  "collage" slide, and simple text-grid (FAQ-style) slides do NOT
+  have a full-slide border -- they sit on open background instead.
+
+BORDER SPECIFICATION -- STRICT, NO EXCEPTIONS
+  Weight:   1pt
+  Color:    #D3D3D3
+  Padding:  48px from slide edge to border, on all sides
+  Gutter:   24px between any internal divided sections
+This exact specification applies every time a border is drawn,
+full-slide or as an individual card/panel. Never a different
+weight, color, padding, or gutter value anywhere in any deck.
+
+CARDS
+The most common recurring content unit is an individually-
+bordered card: white background, thin 1pt #D3D3D3 border, rounded
+corners, consistent internal padding, typically holding an icon, a
+bold heading, and 1-2 sentences of description. Cards appear
+standalone in grids, in rows, or connected to each other by orange
+curved connector lines.
+
+TAGS AND PILLS
+Two recurring small-element patterns, both using color only in
+background fill or outline, never in text:
+- FILLED TAG: rounded rectangle, #F8F8F8 background, no border,
+  holding an icon + short text (location info, benefit list
+  items, social links)
+- OUTLINED PILL/BADGE: rounded pill shape, thin orange outline,
+  transparent/white background, holding a short stat or outcome
+  phrase in standard dark text -- the outline carries the color,
+  never the text inside it
+
+BUTTONS
+Solid rounded rectangle, filled with brand blue (#037EE6), bold
+white text centered inside. Used sparingly -- one per slide at
+most, for a single clear call to action.
+
+================================================================
+8. IMAGES
+================================================================
+Photographs are recommended for brand-related materials over
+illustration. Photos should not be oversaturated with detail and
+should favor a calm, light tone. Acceptable subject matter:
+casual scenes from the life of the company, neutral abstract
+imagery, or modern, simple, restrained architecture.
+
+AVOID: generic stock photos or illustrations of "happy people"
+(posed group thumbs-up shots, forced-smile teams), generic
+businessman imagery, and fantastical tech collages (glowing DNA
+strands, holographic overlays, and similar stock-tech cliches).
+
+HOW THIS APPLIES ACROSS THE REFERENCE DECK'S SLIDE TYPES:
+- CANDID TEAM/CULTURE PHOTOGRAPHY: real, casual, unposed photos
+  of actual team members and activities (outdoor group photos,
+  gatherings, pets, holiday moments) -- this is the "casual
+  scenes from the life of the company" case, used for people- and
+  culture-focused slides (the team collage slide, testimonial
+  avatars).
+- WARM CONCEPTUAL PHOTOGRAPHY: calm, minimal, warm-toned photos
+  representing a concept (a person at a laptop, server equipment,
+  a radar installation) rather than a specific person or event --
+  used for case-study/value-delivered slides, with consistent
+  warm tonal treatment across all images used together in a set.
+- EVENT/ACHIEVEMENT PHOTOGRAPHY: permitted for documenting a
+  genuine achievement or award moment, including a co-branded
+  partner logo overlay when it's a real external event -- a
+  narrow exception for authentic documentation, not a general
+  style.
+
+Keep tonal treatment consistent within any set of images used
+together on one slide.
+
+================================================================
+9. SLIDE TEMPLATES
+================================================================
+Every slide should map to one of the following patterns, observed
+directly in the reference presentation. Choose based on content
+type, following the reference deck's own choices for similar
+content.
+
+9.1 TITLE / OPENING SLIDE
+No border. Logo centered at the top. Large bold centered headline
+(can span 2-3 lines), with an optional emphasized phrase marked by
+decorative accent brackets/arrows rather than color (Section 5).
+A short supporting subtitle line beneath. Subtle textured
+background (faint diagonal line pattern) rather than flat white.
+No columns, no cards.
+
+9.2 STANDARD CONTENT SLIDE (bordered)
+The default for most content. Single border framing the slide
+(Section 7). Header + one-line subtitle at the top. Body content
+below can be a two-panel split, a diagram, or a set of cards --
+see 9.3-9.5.
+
+9.3 TWO-PANEL SPLIT
+Used when content naturally divides into a primary explanation and
+a supporting visual or secondary panel (an asymmetric split, not
+necessarily even). Each panel individually bordered. Left panel
+typically holds heading + body text (+ an optional button or
+highlighted stat box); right panel holds either a supporting
+image/photo or a secondary bordered panel with its own structured
+content (info groups, a stat callout, a process flow).
+
+9.4 CARD GRID
+Header + subtitle, followed by individually-bordered cards
+(Section 7) arranged in a grid (2x2, a row of 3, or 5 cards in a
+connected network layout). Each card: icon, bold heading, 1-2
+sentence description. Optionally connected by orange curved lines
+when cards represent related/adjacent capabilities.
+
+9.5 DIAGRAM WITH CONNECTORS
+A labeled central concept (large bold text) surrounded by
+individual labeled boxes, connected by orange curved arrow lines
+radiating outward. Often paired with a supporting statement in an
+orange-outlined box beneath the diagram. Used for values/
+principles-type content.
+
+9.6 CULTURE / COLLAGE SLIDE
+No border. A short, large, centered statement (heading + one-line
+subtitle) on a soft light-gray rounded-rectangle backdrop,
+surrounded by several candid team photos of varying sizes placed
+asymmetrically around it, each with a subtle drop shadow. Used
+specifically for "who we are as a team" content.
+
+9.7 FAQ / TEXT GRID
+No border, no cards. Header + subtitle, followed by a simple
+multi-column grid of short Q&A or label/description text pairs
+(bold question or label, regular-weight answer beneath), with
+generous white space and no visible dividers or card outlines.
+
+9.8 CLOSING / CONTACT SLIDE
+No full-slide border. Decorative orange swirl/circle line
+ornaments may frame the composition. Typically two side-by-side
+bordered panels (e.g. a QR code + link panel, and a "stay
+connected" panel with tag-style social links), centered on open
+background.
+
+WHEN CONTENT DOESN'T CLEARLY FIT ONE OF THESE EIGHT PATTERNS: flag
+it rather than forcing it into the closest template or inventing a
+new one.
+
+================================================================
+10. RECURRING UI ELEMENTS
+================================================================
+TESTIMONIAL CARD: circular avatar photo + name + title + a small
+tenure badge (icon + duration), a quote (marked with an orange
+quotation-mark icon, not colored quote text), and a horizontal
+"journey" timeline at the bottom (dots connected by an orange
+line, with role labels beneath each dot).
+
+STAT CALLOUT: a large bold number/statistic in standard dark text
+(never colored -- Section 3), with a short label beneath it, often
+set inside a light gray (#F8F8F8) shaded box.
+
+PROCESS FLOW: a vertical or horizontal sequence of bordered boxes,
+each holding a short bold label, connected by orange arrows
+indicating direction/sequence.
+
+INFO GROUP: an icon + a short bold label + one line of detail,
+sometimes inside a light gray tag background.
+
+================================================================
+11. CONTENT DENSITY AND WHITE SPACE
+================================================================
+Generous white space is a defining feature of this deck. Every
+slide reads as uncluttered: short headlines, 1-3 sentence
+descriptions, and structured visual elements (cards, diagrams,
+grids) instead of dense paragraphs or long bullet lists.
+
+- ONE CORE IDEA PER SLIDE, expressed through a single dominant
+  layout pattern rather than mixed content types crammed together.
+- Body text blocks are consistently short -- 2-3 sentences maximum
+  before switching to a card, stat, or diagram.
+- Never fill empty space with decorative filler.
+
+DECIDING WHETHER TO SPLIT DENSE CONTENT
+If content has more than can comfortably fit one of the eight
+templates without cramming, split it across two slides rather than
+overloading one. If it's genuinely one idea with a lot of
+supporting detail, look for a denser but still clean existing
+pattern (e.g. a 5-card network instead of a 3-card row) before
+adding a slide.
+
+================================================================
+12. VISUALIZE, DON'T JUST TYPE
+================================================================
+The reference deck almost never presents information as plain
+prose or a plain bullet list:
+
+  CONTENT TYPE                    OBSERVED TREATMENT
+  -----------------------------------------------------------
+  Company facts/stats             Stat callout or info group
+  -----------------------------------------------------------
+  Multiple related capabilities   Card grid (9.4), optionally
+                                   with connector lines
+  -----------------------------------------------------------
+  Values or guiding principles    Diagram with connectors (9.5)
+  -----------------------------------------------------------
+  A sequence or process           Process flow (Section 10)
+  -----------------------------------------------------------
+  Personal stories/testimonials   Testimonial card (Section 10)
+  -----------------------------------------------------------
+  Simple Q&A content               FAQ/text grid (9.7) -- the one
+                                   template where plain text pairs
+                                   are correct
+  -----------------------------------------------------------
+
+Default to a structured visual pattern for anything with numbers,
+multiple items, a sequence, or a comparison. Reserve plain text
+pairs for genuinely simple Q&A-style content.
+
+================================================================
+13. GOVERNANCE AND STRICT ADHERENCE
+================================================================
+1. TEXT IS NEVER COLORED. Restated because it is the single most
+   important rule in this document -- see Section 3 in full.
+   Headlines and body copy are always #333333 or #4D4D4D. Color
+   lives in icons, accents, buttons, links, borders, and tag
+   backgrounds only.
+
+2. USE ONLY THE EIGHT TEMPLATES IN SECTION 9. Every slide maps to
+   exactly one. Do not force content into the wrong template, and
+   do not invent a ninth.
+
+3. MATCH THE REFERENCE DECK'S RESTRAINT WITH ORANGE. Used
+   sparingly and purposefully -- connector lines, small icon
+   details, outlines -- never as a dominant color across a slide,
+   and capped at 15% of any layout.
+
+4. CONSISTENCY ACROSS THE ENTIRE DECK IS MANDATORY. Card style,
+   border spec, spacing, and type scale must match on every slide.
+
+5. AVOID GENERIC AI-GENERATED VISUAL HABITS not shown in the
+   reference: unnecessary gradients, colored headline text,
+   arbitrary accent colors, stock-photo cliches, or decorative
+   elements the reference deck doesn't use.
+
+6. WHEN IN DOUBT, ASK. If a rule is ambiguous, a needed asset is
+   missing, or new content doesn't clearly fit an existing
+   template, stop and ask rather than guessing.
+
+================================================================
+14. PRE-DELIVERY CHECKLIST
+================================================================
+Before considering any generated deck complete, verify:
+
+[ ] No headline, subheading, body text, or label anywhere in the
+    deck is colored -- all text is #333333 or #4D4D4D, with the
+    sole exception of blue hyperlink text and white text on a
+    solid button fill
+[ ] Every slide matches one of the eight templates in Section 9
+[ ] Border usage matches the pattern per slide type -- title,
+    closing, collage, and FAQ slides are correctly borderless;
+    other content slides have the 1pt #D3D3D3 border at 48px
+    padding
+[ ] Cards, tags, pills, and buttons follow the exact patterns in
+    Sections 7 and 10
+[ ] Orange accent color is used sparingly (icons, connector lines,
+    outlines, accents), capped near 15% of any layout, and never
+    dominates a slide
+[ ] Photography style matches the content type per Section 8
+[ ] All colors used are from the seven-color palette in Section 4,
+    plus the #D3D3D3 stroke color in Section 7
+[ ] Typography follows the type scale, ratios, and font weights in
+    Section 5
+[ ] Company name is spelled "VITech" everywhere
+[ ] No slide feels dense -- content is visualized per Section 12
+[ ] Genuinely ambiguous or missing elements were flagged, not
+    guessed
+
+================================================================
+END OF DOCUMENT
+================================================================
